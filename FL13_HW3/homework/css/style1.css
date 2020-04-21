@@ -1,0 +1,194 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  background-color: #ffffff; }
+
+.header {
+  background-image: url(../img/m-h-day.jpg);
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  border-radius: 0 0 400px/200px 0; }
+  .header-wrap {
+    margin-left: 150px;
+    width: 600px; }
+  .header_text {
+    margin-bottom: 80px;
+    font-family: "Hind", sans-serif;
+    font-size: 20px;
+    line-height: 40px;
+    color: #21232e; }
+  .header_button {
+    margin-bottom: 200px; }
+  .header_heading {
+    position: relative;
+    margin: 80px 0 80px 0;
+    z-index: 0;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 72px;
+    font-weight: bold;
+    color: #21232e; }
+    .header_heading::before {
+      content: '';
+      position: absolute;
+      width: 303px;
+      height: 50px;
+      top: 120px;
+      left: 0;
+      background-color: #14a0c7;
+      z-index: -2; }
+
+.section {
+  text-align: center; }
+  .section_text {
+    display: inline-block;
+    position: relative;
+    margin: 50px 0 35px 0;
+    font-size: 42px;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 600;
+    color: #21232e; }
+    .section_text::before {
+      content: '';
+      position: absolute;
+      width: 185px;
+      height: 50px;
+      top: -4px;
+      left: 221px;
+      background-color: #14a0c7;
+      z-index: -2; }
+  .section_card_wrap {
+    margin: auto;
+    width: 60%; }
+  .section_card {
+    display: flex;
+    padding: 0;
+    margin: 0 0 30px 0;
+    background: #21232e;
+    border-radius: 8px; }
+    .section_card_right_container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      margin: 50px 60px; }
+    .section_card_img {
+      padding: 15px;
+      border-radius: 20px;
+      object-fit: cover; }
+    .section_card_heading {
+      font-family: "Source Sans Pro", sans-serif;
+      font-size: 28px;
+      font-weight: 600;
+      color: #ffffff; }
+    .section_card_text {
+      margin: 30px 0;
+      font-family: "Hind", sans-serif;
+      text-align: justify;
+      color: silver;
+      font-size: 16px;
+      line-height: 24px; }
+  .section_link {
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 20px;
+    color: silver; }
+  .section_banner {
+    width: 65%;
+    margin: auto;
+    margin-top: 160px;
+    position: relative;
+    z-index: 9;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 5px;
+    background-image: linear-gradient(to right, #629118, #2d5bd6); }
+    .section_banner_text_wrap {
+      margin-top: 10px; }
+    .section_banner_heading {
+      position: relative;
+      line-height: 50px;
+      padding-top: 15px;
+      vertical-align: bottom;
+      font-family: "Source Sans Pro", sans-serif;
+      color: #21232e;
+      font-size: 32px;
+      font-weight: bold; }
+      .section_banner_heading::before {
+        content: '';
+        position: absolute;
+        width: 70px;
+        height: 35px;
+        top: 19px;
+        left: 127px;
+        background-color: #14a0c7;
+        z-index: -2; }
+    .section_banner_text {
+      text-align: left;
+      margin-top: 20px;
+      margin-bottom: 50px;
+      font-family: "Hind", sans-serif;
+      color: silver; }
+
+.landing-logo {
+  padding-top: 20px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center; }
+  .landing-logo p {
+    text-align: center;
+    align-content: center;
+    padding: 0 10px;
+    font-size: 22px;
+    line-height: 20px;
+    font-family: "Hind", sans-serif;
+    font-weight: bold;
+    color: #21232e; }
+  .landing-logo span {
+    display: block;
+    font-size: 10px;
+    font-weight: normal; }
+
+.footer {
+  background: #21232e;
+  width: 100%;
+  height: 300px;
+  margin-top: -80px; }
+  .footer-wrap {
+    padding-top: 150px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center; }
+  .footer_logo.landing-logo {
+    padding: 0; }
+    .footer_logo.landing-logo p {
+      color: silver; }
+  .footer_text, .footer-cr {
+    display: inline-block;
+    width: 320px;
+    font-family: "Hind", sans-serif;
+    color: silver; }
+  .footer-cr {
+    text-align: right; }
+
+button {
+  padding: 10px 40px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  color: #fff;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  background-color: #699900; }
+
+a {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 20px; }
+
+.login {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 20px;
+  color: #ffffff;
+  margin-left: 150px; }
