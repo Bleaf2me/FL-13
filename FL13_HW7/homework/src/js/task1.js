@@ -19,7 +19,6 @@ if (log !== '' && log !== null && log.length < minLength) {
 
       if (pass === '' || pass === null) {
         alert('Cancelled');
-
       } else if (log === 'User' && pass === 'UserPass') {
         alert(currentHours > startDay && currentHours < endDay ? 
         'Good day, dear User!' : 'Good evening, dear User');
