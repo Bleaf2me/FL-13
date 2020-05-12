@@ -1,0 +1,110 @@
+.file:hover,
+.folder:hover {
+  cursor: pointer;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+body {
+ display: block;
+ font-family: Arial, Helvetica, sans-serif;
+}
+
+.text {
+  margin: auto;
+  text-align: center;
+  font-size: 32px;
+  line-height: 1.5;
+  text-shadow: 0 0 15px rgba(255,255,255,.5), 0 0 10px rgba(255,255,255,.5);
+}
+
+.right-click-menu {
+  position: absolute;
+  background: #cccccc;
+  display: none;
+}
+
+.right-click-menu.active {
+  display: block;
+}
+
+.right-click-menu li {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  font-size: 20px;
+}
+
+.right-click-menu li:hover {
+  background: #333333;
+}
+
+.button1,
+.button2 {
+  padding: 10px 8px;
+  cursor: pointer;
+}
+
+.material-icons.yel { 
+  color: #edc21a;
+}
+
+.material-icons.grey {
+  color: #c4c4c4;
+}
+
+.nopadding {
+  padding: 0;
+  font-style: italic;
+}
+
+li {
+  list-style: none;
+  position: relative;
+  margin-top: 5px; 
+}
+
+span::before {
+  content: '';
+  display: none;
+  position: absolute;
+  height: 24px;
+  width: 200px;
+  top: -1px;
+  left: -4px;
+  right: 0;
+  padding: 1px 0;
+  background-color: lightgrey;
+  z-index: -1;
+}
+span {
+  display: inline-block;
+  vertical-align: bottom;
+}
+
+i {
+  display: inline-block;
+  height: 24px;
+  vertical-align: top;
+}
+
+span:hover::before {
+  display: block;
+}
+
+#root > ul {
+  display: block;
+  padding-left: 50px;
+}
+
+#root {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  width: 350px;
+  height: auto;
+  margin: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
