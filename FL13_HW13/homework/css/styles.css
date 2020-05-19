@@ -1,0 +1,10 @@
+.btn-primary,
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:focus,
+.btn-primary:visited,
+.btn-primary:focus-within {
+  background-color: #ff7f50!important;
+  border-color: #ff7f50!important;
+  outline: none!important;
+}
